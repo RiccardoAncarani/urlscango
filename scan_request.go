@@ -1,6 +1,6 @@
 package urlscango
 
-type Request struct {
+type ScanRequest struct {
 	URL         string `json:"url"`
 	Public      string `json:"public,omitempty"`
 	CustomAgent string `json:"customagent,omitempty"`
@@ -8,7 +8,7 @@ type Request struct {
 	APIKey      string `json:"-"`
 }
 
-func (r Request) Validate() {
+func (r ScanRequest) Validate() {
 	switch r.Public {
 	case "on":
 	case "off":

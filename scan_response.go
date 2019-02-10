@@ -1,6 +1,6 @@
 package urlscango
 
-type Response struct {
+type ScanResponse struct {
 	Message    string `json:"message"`
 	UUID       string `json:"uuid"`
 	Result     string `json:"result"`
