@@ -4,7 +4,7 @@ A super simple interface for urlscan.io, written in Go.
 ## Usage
 This example shows the main functionalities of this package:
 
-```
+```go
 package main
 
 import (
